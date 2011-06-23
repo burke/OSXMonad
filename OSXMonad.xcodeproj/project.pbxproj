@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		820CCDD513B3DFCE00281566 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 820CCDD413B3DFCE00281566 /* Cocoa.framework */; };
+		820CCDDF13B3DFCE00281566 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 820CCDDD13B3DFCE00281566 /* InfoPlist.strings */; };
+		820CCDE213B3DFCE00281566 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 820CCDE113B3DFCE00281566 /* main.m */; };
+		820CCDE513B3DFCE00281566 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 820CCDE313B3DFCE00281566 /* Credits.rtf */; };
+		820CCDE813B3DFCE00281566 /* OSXMonadAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 820CCDE713B3DFCE00281566 /* OSXMonadAppDelegate.m */; };
+		820CCDEB13B3DFCE00281566 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 820CCDE913B3DFCE00281566 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		820CCDD013B3DFCE00281566 /* OSXMonad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OSXMonad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		820CCDD413B3DFCE00281566 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		820CCDD713B3DFCE00281566 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		820CCDD813B3DFCE00281566 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		820CCDD913B3DFCE00281566 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		820CCDDC13B3DFCE00281566 /* OSXMonad-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OSXMonad-Info.plist"; sourceTree = "<group>"; };
+		820CCDDE13B3DFCE00281566 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		820CCDE013B3DFCE00281566 /* OSXMonad-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OSXMonad-Prefix.pch"; sourceTree = "<group>"; };
+		820CCDE113B3DFCE00281566 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		820CCDE413B3DFCE00281566 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		820CCDE613B3DFCE00281566 /* OSXMonadAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OSXMonadAppDelegate.h; sourceTree = "<group>"; };
+		820CCDE713B3DFCE00281566 /* OSXMonadAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OSXMonadAppDelegate.m; sourceTree = "<group>"; };
+		820CCDEA13B3DFCE00281566 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		820CCDCD13B3DFCE00281566 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				820CCDD513B3DFCE00281566 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		820CCDC513B3DFCE00281566 = {
+			isa = PBXGroup;
+			children = (
+				820CCDDA13B3DFCE00281566 /* OSXMonad */,
+				820CCDD313B3DFCE00281566 /* Frameworks */,
+				820CCDD113B3DFCE00281566 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		820CCDD113B3DFCE00281566 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				820CCDD013B3DFCE00281566 /* OSXMonad.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		820CCDD313B3DFCE00281566 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				820CCDD413B3DFCE00281566 /* Cocoa.framework */,
+				820CCDD613B3DFCE00281566 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		820CCDD613B3DFCE00281566 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				820CCDD713B3DFCE00281566 /* AppKit.framework */,
+				820CCDD813B3DFCE00281566 /* CoreData.framework */,
+				820CCDD913B3DFCE00281566 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		820CCDDA13B3DFCE00281566 /* OSXMonad */ = {
+			isa = PBXGroup;
+			children = (
+				820CCDE613B3DFCE00281566 /* OSXMonadAppDelegate.h */,
+				820CCDE713B3DFCE00281566 /* OSXMonadAppDelegate.m */,
+				820CCDE913B3DFCE00281566 /* MainMenu.xib */,
+				820CCDDB13B3DFCE00281566 /* Supporting Files */,
+			);
+			path = OSXMonad;
+			sourceTree = "<group>";
+		};
+		820CCDDB13B3DFCE00281566 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				820CCDDC13B3DFCE00281566 /* OSXMonad-Info.plist */,
+				820CCDDD13B3DFCE00281566 /* InfoPlist.strings */,
+				820CCDE013B3DFCE00281566 /* OSXMonad-Prefix.pch */,
+				820CCDE113B3DFCE00281566 /* main.m */,
+				820CCDE313B3DFCE00281566 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		820CCDCF13B3DFCE00281566 /* OSXMonad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 820CCDEE13B3DFCE00281566 /* Build configuration list for PBXNativeTarget "OSXMonad" */;
+			buildPhases = (
+				820CCDCC13B3DFCE00281566 /* Sources */,
+				820CCDCD13B3DFCE00281566 /* Frameworks */,
+				820CCDCE13B3DFCE00281566 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OSXMonad;
+			productName = OSXMonad;
+			productReference = 820CCDD013B3DFCE00281566 /* OSXMonad.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		820CCDC713B3DFCE00281566 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 820CCDCA13B3DFCE00281566 /* Build configuration list for PBXProject "OSXMonad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 820CCDC513B3DFCE00281566;
+			productRefGroup = 820CCDD113B3DFCE00281566 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				820CCDCF13B3DFCE00281566 /* OSXMonad */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		820CCDCE13B3DFCE00281566 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				820CCDDF13B3DFCE00281566 /* InfoPlist.strings in Resources */,
+				820CCDE513B3DFCE00281566 /* Credits.rtf in Resources */,
+				820CCDEB13B3DFCE00281566 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		820CCDCC13B3DFCE00281566 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				820CCDE213B3DFCE00281566 /* main.m in Sources */,
+				820CCDE813B3DFCE00281566 /* OSXMonadAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		820CCDDD13B3DFCE00281566 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				820CCDDE13B3DFCE00281566 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		820CCDE313B3DFCE00281566 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				820CCDE413B3DFCE00281566 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		820CCDE913B3DFCE00281566 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				820CCDEA13B3DFCE00281566 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		820CCDEC13B3DFCE00281566 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		820CCDED13B3DFCE00281566 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		820CCDEF13B3DFCE00281566 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OSXMonad/OSXMonad-Prefix.pch";
+				INFOPLIST_FILE = "OSXMonad/OSXMonad-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		820CCDF013B3DFCE00281566 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OSXMonad/OSXMonad-Prefix.pch";
+				INFOPLIST_FILE = "OSXMonad/OSXMonad-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		820CCDCA13B3DFCE00281566 /* Build configuration list for PBXProject "OSXMonad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				820CCDEC13B3DFCE00281566 /* Debug */,
+				820CCDED13B3DFCE00281566 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		820CCDEE13B3DFCE00281566 /* Build configuration list for PBXNativeTarget "OSXMonad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				820CCDEF13B3DFCE00281566 /* Debug */,
+				820CCDF013B3DFCE00281566 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 820CCDC713B3DFCE00281566 /* Project object */;
+}
